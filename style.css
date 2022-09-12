@@ -1,0 +1,237 @@
+.logo{
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.contenido{
+    width: 100%;
+}
+
+.tituloJuego {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.btnIniciarJuego {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1rem;
+
+  /* justify-content: middle; */
+}
+.btnAgregarPalabra{
+  display:block;  
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  
+  text-decoration:none;
+  color: black;
+  /* justify-content: middle; */
+  
+}
+html {
+    font-size: 16px;
+  }
+body {
+    background: #F3F5FC;
+}
+
+#letra{
+    
+    font-size: 16px;
+    /* background:red; */
+    color: green;
+    font-weight: bold;
+}
+
+#frase{
+    font-size: 16px;
+    text-decoration-line:none;
+    color:red;
+    font-weight: bold;
+    /* float: buttom; */
+}
+
+#hombre {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+
+
+#hombreAhorcado{
+    width: 100vw;
+    text-align: center;
+    margin-top:  4rem;
+    margin-bottom: 2rem;
+    height: 16.75rem;
+}
+
+.letrasCorrectas {
+    text-align: center;
+    color: #002462;
+    font-size: 1.8rem;
+  }
+
+.letra {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+.adivinada, #colocaletraAcertada {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-bottom: solid 2px #002462;
+    margin-left: 0.4rem;
+    line-height: 4.5rem;
+  }
+  
+  .letrasErradas {
+    text-align:  center;
+    margin-top: 1rem;
+    color: rgb(235, 14, 25);
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  #colocaletra {
+    text-align:  center;
+    margin-top: 1rem;
+    color: #45caf3;
+    font-weight: bold;
+  }
+
+  .mensaje{
+    text-align:center;
+    /* margin-left: 680; */
+    font-size: 40px;
+    color: #0a3871;
+  }
+ 
+  .hidden {display:none}
+/* #home::after{
+    content:"Hombre ahorcado"; }*/
+    [type="button"] {
+        width: 15rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: solid 1px #0a3871;
+        color: #0a3871;
+        background: inherit;
+        cursor: pointer;
+    }
+      
+      .btnNuevoJuego, .btnIniciarJuego {
+        background-color: #0a3871;
+        color: #fff;
+        border-color: #000;
+        
+      }
+      
+      .btnNuevoJuego:hover, .btnIniciarJuego:hover {
+        background-color: #0a3871;
+        color:#fff;
+        border: solid 2px ;
+        border-color:rgb(6, 103, 214);
+        font-size: 1rem;
+        transition: .4s;
+      } 
+
+      .btnDesistir:hover, .btnAgregarPalabra:hover {
+        color:black;
+        border: solid 2px ;
+        border-color:rgb(6, 103, 214);
+        font-size: 1rem;
+        text-decoration:none;
+        color: black;
+        transition: .4s;
+      } 
+      .botones,#botonesMenuP {
+     
+        margin-top: 3rem;
+        text-align: center;
+      }
+   
+      .botones {
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      .entradaPalabra {
+        display: flex;
+        align-items: center;
+        margin-top:  7rem;
+      }
+      #agregarPalabra{
+        margin-left: 35%;
+
+      }
+      
+      .validarMensaje {
+        text-align: center;
+        color:rgb(204, 15, 15);
+        margin-left: 1%;
+        font-size: x-large;
+      }
+      
+      .main__section--nuevaPalabra {
+        width: none;
+        padding: 4%;
+        font-size: 16px;
+        color: #002462;
+        border-radius: 1rem;
+        background: inherit; 
+      }
+
+      .main__section__botones{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height:50%;
+        margin-bottom: 1%;
+        
+        margin-left: 30%;
+     }
+
+      .section__informacion{
+        margin-bottom: 1rem;
+        width: 100%;
+        height:50%;
+        margin-top: 15%;
+        margin-left: 30%;
+      }
+
+      #main__section__botones--guardarEmpezar{
+        
+        background-color: #0a3871;
+        color: #fff;
+        border-color: #000;
+        transition: .4s;
+      }
+
+      #main__section__botones--cancelar {
+        color:black;
+        border: solid 1px ;
+        border-color:rgb(0, 0, 0);
+        text-decoration:none;
+        color: black;
+        transition: .4s;
+      }
+     
+      #main__section__botones--guardarEmpezar:hover{
+        font-size:18px;
+        border-color: rgb(5, 74, 154);
+      }
+
+      #main__section__botones--cancelar:hover {
+        font-size:18px;
+        border-color:#002462;
+      }
+      .Pista{
+        text-align: center;
+        color: gray;
+      }
